@@ -1,0 +1,17 @@
+<h1>Nombre:{{nombre}}</h1>
+<h1>Edad:{{edad}}</h1>
+{{#if isAdmin}}
+<h2>Es Administrador</h2>
+{{/if}}
+
+{{#if edad}}
+    <h1> Es mayor a 18</h1>
+{{/if}}
+<ul>
+    {{#each skills}}
+        <li> {{this}} </li>
+    {{/each}}
+</ul>
+
+
+
